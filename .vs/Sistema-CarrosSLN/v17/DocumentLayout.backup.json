@@ -1,12 +1,142 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\GitHubNiko\\Projeto_MVC\\Sistema-CarrosSLN\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\GitHubNiko\\Projeto_asp.net-MVC-e-asp.net\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8F807D7-2E2C-4AB1-B446-3A0B1A794488}|Sistema-Carros\\Sistema-Carros.csproj|e:\\githubniko\\projeto_asp.net-mvc-e-asp.net\\sistema-carros\\views\\carteira\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8F807D7-2E2C-4AB1-B446-3A0B1A794488}|Sistema-Carros\\Sistema-Carros.csproj|solutionrelative:sistema-carros\\views\\carteira\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8F807D7-2E2C-4AB1-B446-3A0B1A794488}|Sistema-Carros\\Sistema-Carros.csproj|e:\\githubniko\\projeto_asp.net-mvc-e-asp.net\\sistema-carros\\controllers\\carteiracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8F807D7-2E2C-4AB1-B446-3A0B1A794488}|Sistema-Carros\\Sistema-Carros.csproj|solutionrelative:sistema-carros\\controllers\\carteiracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8F807D7-2E2C-4AB1-B446-3A0B1A794488}|Sistema-Carros\\Sistema-Carros.csproj|e:\\githubniko\\projeto_asp.net-mvc-e-asp.net\\sistema-carros\\views\\funcionario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8F807D7-2E2C-4AB1-B446-3A0B1A794488}|Sistema-Carros\\Sistema-Carros.csproj|solutionrelative:sistema-carros\\views\\funcionario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8F807D7-2E2C-4AB1-B446-3A0B1A794488}|Sistema-Carros\\Sistema-Carros.csproj|e:\\githubniko\\projeto_asp.net-mvc-e-asp.net\\sistema-carros\\views\\agencia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8F807D7-2E2C-4AB1-B446-3A0B1A794488}|Sistema-Carros\\Sistema-Carros.csproj|solutionrelative:sistema-carros\\views\\agencia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8F807D7-2E2C-4AB1-B446-3A0B1A794488}|Sistema-Carros\\Sistema-Carros.csproj|e:\\githubniko\\projeto_asp.net-mvc-e-asp.net\\sistema-carros\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8F807D7-2E2C-4AB1-B446-3A0B1A794488}|Sistema-Carros\\Sistema-Carros.csproj|solutionrelative:sistema-carros\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8F807D7-2E2C-4AB1-B446-3A0B1A794488}|Sistema-Carros\\Sistema-Carros.csproj|e:\\githubniko\\projeto_asp.net-mvc-e-asp.net\\sistema-carros\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8F807D7-2E2C-4AB1-B446-3A0B1A794488}|Sistema-Carros\\Sistema-Carros.csproj|solutionrelative:sistema-carros\\controllers\\agenciacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8F807D7-2E2C-4AB1-B446-3A0B1A794488}|Sistema-Carros\\Sistema-Carros.csproj|e:\\githubniko\\projeto_asp.net-mvc-e-asp.net\\sistema-carros\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8F807D7-2E2C-4AB1-B446-3A0B1A794488}|Sistema-Carros\\Sistema-Carros.csproj|solutionrelative:sistema-carros\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\GitHubNiko\\Projeto_asp.net-MVC-e-asp.net\\Sistema-Carros\\Views\\Carteira\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sistema-Carros\\Views\\Carteira\\Index.cshtml",
+              "ToolTip": "E:\\GitHubNiko\\Projeto_asp.net-MVC-e-asp.net\\Sistema-Carros\\Views\\Carteira\\Index.cshtml",
+              "RelativeToolTip": "Sistema-Carros\\Views\\Carteira\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T12:57:48.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\GitHubNiko\\Projeto_asp.net-MVC-e-asp.net\\Sistema-Carros\\Views\\Funcionario\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sistema-Carros\\Views\\Funcionario\\Index.cshtml",
+              "ToolTip": "E:\\GitHubNiko\\Projeto_asp.net-MVC-e-asp.net\\Sistema-Carros\\Views\\Funcionario\\Index.cshtml",
+              "RelativeToolTip": "Sistema-Carros\\Views\\Funcionario\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T12:55:06.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarteiraController.cs",
+              "DocumentMoniker": "E:\\GitHubNiko\\Projeto_asp.net-MVC-e-asp.net\\Sistema-Carros\\Controllers\\CarteiraController.cs",
+              "RelativeDocumentMoniker": "Sistema-Carros\\Controllers\\CarteiraController.cs",
+              "ToolTip": "E:\\GitHubNiko\\Projeto_asp.net-MVC-e-asp.net\\Sistema-Carros\\Controllers\\CarteiraController.cs",
+              "RelativeToolTip": "Sistema-Carros\\Controllers\\CarteiraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T12:51:20.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FuncionarioController.cs",
+              "DocumentMoniker": "E:\\GitHubNiko\\Projeto_asp.net-MVC-e-asp.net\\Sistema-Carros\\Controllers\\FuncionarioController.cs",
+              "RelativeDocumentMoniker": "Sistema-Carros\\Controllers\\FuncionarioController.cs",
+              "ToolTip": "E:\\GitHubNiko\\Projeto_asp.net-MVC-e-asp.net\\Sistema-Carros\\Controllers\\FuncionarioController.cs",
+              "RelativeToolTip": "Sistema-Carros\\Controllers\\FuncionarioController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T12:50:45.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\GitHubNiko\\Projeto_asp.net-MVC-e-asp.net\\Sistema-Carros\\Views\\Agencia\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sistema-Carros\\Views\\Agencia\\Index.cshtml",
+              "ToolTip": "E:\\GitHubNiko\\Projeto_asp.net-MVC-e-asp.net\\Sistema-Carros\\Views\\Agencia\\Index.cshtml",
+              "RelativeToolTip": "Sistema-Carros\\Views\\Agencia\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T11:53:37.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AgenciaController.cs",
+              "DocumentMoniker": "E:\\GitHubNiko\\Projeto_asp.net-MVC-e-asp.net\\Sistema-Carros\\Controllers\\AgenciaController.cs",
+              "RelativeDocumentMoniker": "Sistema-Carros\\Controllers\\AgenciaController.cs",
+              "ToolTip": "E:\\GitHubNiko\\Projeto_asp.net-MVC-e-asp.net\\Sistema-Carros\\Controllers\\AgenciaController.cs",
+              "RelativeToolTip": "Sistema-Carros\\Controllers\\AgenciaController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T11:52:33.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\GitHubNiko\\Projeto_asp.net-MVC-e-asp.net\\Sistema-Carros\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sistema-Carros\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\GitHubNiko\\Projeto_asp.net-MVC-e-asp.net\\Sistema-Carros\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Sistema-Carros\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T11:39:16.374Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

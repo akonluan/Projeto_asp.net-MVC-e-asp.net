@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7IJTnHVP+VQ=",
+  "dgSpecHash": "hqYh/WxUmnU=",
   "success": true,
   "projectFilePath": "E:\\GitHubNiko\\Projeto_asp.net-MVC-e-asp.net\\Sistema-Carros\\Sistema-Carros.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tarde.cetafest\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.310\\microsoft.net.sdk.compilers.toolset.9.0.310.nupkg.sha512"
+    "C:\\Users\\manha.cetafest\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.310\\microsoft.net.sdk.compilers.toolset.9.0.310.nupkg.sha512"
   ],
   "logs": []
 }

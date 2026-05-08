@@ -1,0 +1,248 @@
+﻿
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestão de Agências</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f4f7f6;
+            --text-color: #333;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            background: var(--white);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+
+        /* Estilização do Formulário */
+        .form-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #eee;
+        }
+
+        input {
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        input:focus {
+            border-color: var(--accent-color);
+        }
+
+        button {
+            background-color: var(--accent-color);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        /* Estilização da Tabela */
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: left;
+            padding: 15px;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+            font-size: 15px;
+        }
+
+        tr:hover {
+            background-color: #f1f7ff;
+        }
+
+        .actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .btn-delete {
+            background-color: #e74c3c;
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        .btn-delete:hover {
+            background-color: #c0392b;
+        }
+
+        .empty-msg {
+            text-align: center;
+            color: #999;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Cadastro de Agências</h1>
+
+        <!-- Formulário de Entrada -->
+        <div class="form-group">
+            <input type="text" id="codigo" placeholder="Código (ex: 001)">
+            <input type="text" id="descricao" placeholder="Descrição da Agência">
+            <input type="text" id="cidade" placeholder="Cidade">
+            <input type="text" id="estado" placeholder="Estado (UF)" maxlength="2">
+            <button onclick="adicionarAgencia()">Adicionar</button>
+        </div>
+
+        <!-- Tabela -->
+        <div class="table-container">
+            <table id="tabelaAgencias">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Descrição</th>
+                        <th>Cidade</th>
+                        <th>Estado</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="corpoTabela">
+                    <!-- Linhas serão inseridas aqui pelo JS -->
+                </tbody>
+            </table>
+            <div id="mensagemVazia" class="empty-msg">Nenhuma agência cadastrada.</div>
+        </div>
+    </div>
+
+    <script>
+        // Array para armazenar os dados (simulando um banco de dados local)
+        let agencias = [
+            { codigo: "010", descricao: "Agência Central", cidade: "São Paulo", estado: "SP" },
+            { codigo: "025", descricao: "Agência Norte", cidade: "Manaus", estado: "AM" }
+        ];
+
+        // Função para renderizar a tabela
+        function renderizarTabela() {
+            const corpoTabela = document.getElementById('corpoTabela');
+            const mensagemVazia = document.getElementById('mensagemVazia');
+
+            corpoTabela.innerHTML = '';
+
+            if (agencias.length === 0) {
+                mensagemVazia.style.display = 'block';
+            } else {
+                mensagemVazia.style.display = 'none';
+
+                agencias.forEach((agencia, index) => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${agencia.codigo}</td>
+                        <td>${agencia.descricao}</td>
+                        <td>${agencia.cidade}</td>
+                        <td>${agencia.estado}</td>
+                        <td class="actions">
+                            <button class="btn-delete" onclick="removerAgencia(${index})">Excluir</button>
+                        </td>
+                    `;
+                    corpoTabela.appendChild(tr);
+                });
+            }
+        }
+
+        // Função para adicionar nova agência
+        function adicionarAgencia() {
+            const codigo = document.getElementById('codigo').value;
+            const descricao = document.getElementById('descricao').value;
+            const cidade = document.getElementById('cidade').value;
+            const estado = document.getElementById('estado').value;
+
+            // Validação simples
+            if (!codigo || !descricao || !cidade || !estado) {
+                alert("Por favor, preencha todos os campos.");
+                return;
+            }
+
+            // Adiciona ao array
+            agencias.push({
+                codigo: codigo,
+                descricao: descricao,
+                cidade: cidade,
+                estado: estado.toUpperCase()
+            });
+
+            // Limpa os campos
+            document.getElementById('codigo').value = '';
+            document.getElementById('descricao').value = '';
+            document.getElementById('cidade').value = '';
+            document.getElementById('estado').value = '';
+
+            renderizarTabela();
+        }
+
+        // Função para remover agência
+        function removerAgencia(index) {
+            if (confirm("Deseja realmente excluir esta agência?")) {
+                agencias.splice(index, 1);
+                renderizarTabela();
+            }
+        }
+
+        // Inicializa a tabela ao carregar a página
+        window.onload = renderizarTabela;
+    </script>
+
+</body>
+</html>
